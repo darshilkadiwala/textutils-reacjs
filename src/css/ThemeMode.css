@@ -1,0 +1,49 @@
+.themeToggle {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	outline: none;
+	cursor: pointer;
+	transition: 0.5s;
+	display: flex;
+}
+
+.theme-light {
+	background: var(--second-color);
+}
+
+.theme-dark {
+	background: var(--first-color);
+}
+
+/* .themeToggle.active {
+	display: flex;
+} */
+
+/* .themeToggle:hover {
+	background: var(--second-color);
+} */
+
+.themeToogleIcon {
+	width: 1.25rem;
+	height: 1.25rem;
+	transition: 0.5s;
+}
+
+.theme-light .themeToogleIcon {
+	fill: var(--first-color);
+}
+
+.theme-dark .themeToogleIcon {
+	fill: var(--second-color);
+}
+
+/* div#scrolltoTop:hover .scrolltoTop {
+	color: var(--first-color);
+} */
