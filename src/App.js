@@ -26,7 +26,7 @@ function App() {
           <Route
             path="/"
             element={
-              <div class="container">
+              <div className="container">
                 <TextForm
                   heading="Enter text below to analyze"
                   themeMode={themeMode}
